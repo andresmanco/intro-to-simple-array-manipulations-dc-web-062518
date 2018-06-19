@@ -34,7 +34,7 @@ def using_uniq(captain_planet_and_the_planeteers)
   new_array = captain_planet_and_the_planeteers.uniq
 end
 
-def using_delete(instructors, "Steven")
+def using_delete(instructors, name)
   
-  no_offense_steven = instructors.delete(Steven)
+  no_offense_steven = instructors.delete(name)
 end
