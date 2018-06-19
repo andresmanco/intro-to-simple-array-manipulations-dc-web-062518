@@ -25,3 +25,7 @@ end
 def using_concat(my_favorite_things, more_favs)
   all_my_favs = my_favorite_things.push(*more_favs)
 end
+
+def new_array(list_of_esoteric_programming_languages, another_esoteric_language)
+  new_array = using_insert(@list_of_esoteric_programming_languages, @another_esoteric_language)
+end
