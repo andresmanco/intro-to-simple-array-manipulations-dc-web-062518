@@ -35,5 +35,6 @@ def using_uniq(captain_planet_and_the_planeteers)
 end
 
 def using_delete(instructors, "Steven")
-  no_offense_steven = instructors.delete("Steven")
+  
+  no_offense_steven = instructors.delete(Steven)
 end
